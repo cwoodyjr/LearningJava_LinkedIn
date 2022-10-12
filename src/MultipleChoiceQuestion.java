@@ -4,9 +4,9 @@ public class MultipleChoiceQuestion {
 
     public static void main(String[] args) {
         String question = "How many eggs does a chicken lay per day?";
-        String choiceOne = "3";
-        String choiceTwo = "1";
-        String choiceThree = "5";
+        String choiceOne = "three";
+        String choiceTwo = "one";
+        String choiceThree = "five";
 
         String correctAnswer = choiceTwo;
 
@@ -17,8 +17,8 @@ public class MultipleChoiceQuestion {
         // TODO: Have the user input an answer
         // TODO: Retrieve the user's input
         Scanner reader = new Scanner(System.in);
-        String userAnswer = reader.next();
-
+        String userAnswer = reader.next().toLowerCase().trim();
+        System.out.println("Your answer is: " + userAnswer);
         // TODO: If the user's input matches the correctAnswer...
         if (userAnswer.equals(correctAnswer)) {
             // TODO: then the user is correct and we want to print out a
