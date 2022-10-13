@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CreatingAFunction/CreatingAFunction.iml" filepath="$PROJECT_DIR$/CreatingAFunction/CreatingAFunction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DebuggingJava/DebuggingJava.iml" filepath="$PROJECT_DIR$/DebuggingJava/DebuggingJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearningJava_LinkedIn.iml" filepath="$PROJECT_DIR$/LearningJava_LinkedIn.iml" />
     </modules>
   </component>
