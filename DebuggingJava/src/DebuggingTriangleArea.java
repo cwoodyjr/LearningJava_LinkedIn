@@ -26,9 +26,11 @@ public class DebuggingTriangleArea {
                     "height of the triangle (in inches).");
             height = input.nextDouble();
         }
-
+double area1 = 29;
         double area = (base * height) / 2;
         System.out.println("The area is " + area);
 
+       double findMax = Math.max(base,height);
+        System.out.println(findMax);
     }
 }
